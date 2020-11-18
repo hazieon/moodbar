@@ -1,0 +1,45 @@
+#container {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 5vh;
+  font-size: calc(120px + 1vmin);
+  font-family: "Moon Flower Bold";
+  color: rgb(236, 234, 234);
+  text-shadow: 1px 1px 25px hsl(256, 47%, 49%), 1px 1px 25px white;
+}
+Button {
+  display: inline-block;
+  box-shadow: inset 1px 1px 155px 155px #9780ff;
+  background-color: #000000;
+  border-radius: 37px;
+  border: 2px solid #03a3fff8;
+  box-shadow: 2px 2px 15px rgb(143, 102, 240);
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Moon Flower Bold";
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 13px 30px;
+  margin: 15px;
+  text-decoration: none;
+  text-shadow: 2px 2px 7px #7142bb;
+}
+Button:hover {
+  font-size: 50px;
+  font-weight: bolder;
+  background: linear-gradient(to bottom, #03a3fff8 5%, rgb(143, 102, 240) 100%);
+
+  /* background-color: #fb9e25; */
+}
+Button:active {
+  position: relative;
+  top: 1px;
+}

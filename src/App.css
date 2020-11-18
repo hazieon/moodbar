@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  background-color: rgb(9, 7, 31);
+  /* background-image: url("https://eskipaper.com/images/beach-background-4.jpg"); */
+  /* background-size: auto; */
+}
+
+#drink-name {
+  font-family: "Moon Flower Bold";
+  color: rgb(255, 255, 255);
+  border: 0px solid mediumpurple;
+  box-shadow: inset 1px 1px 35px hsla(204, 84%, 63%, 0.623);
+  border-radius: 65px;
+  text-shadow: 1px 1px 5px hsla(204, 84%, 63%, 0.397);
+  display: inline;
+  padding: 25px;
+}
+
+#name-space {
+  padding: 10px;
+  margin: 10px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(25px + 1vmin);
+  font-family: "Moon Flower Bold";
+  color: rgb(236, 234, 234);
+  border: 1px solid mediumpurple;
+  box-shadow: inset 1px 1px 35px hsl(256, 67%, 65%);
+  text-shadow: 1px 1px 15px hsl(256, 67%, 65%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-header {
+    animation: neon-lights infinite 20s linear;
+  }
+}
+
+@keyframes neon-lights {
+  from {
+    box-shadow: inset 1px 1px 45px hsl(256, 67%, 65%);
+  }
+  to {
+    box-shadow: inset 1px 1px 45px hsl(204, 84%, 63%);
+  }
+}
+.image-span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.image {
+  border-radius: 100px;
+  margin: 50px;
+  box-shadow: 1px 1px 75px hsl(256, 67%, 65%);
+}
+
+.instructions-wrap {
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  max-width: 60%;
+}
+
+.instructions {
+  font-family: "Northern Lights";
+  font-size: 25px;
+}
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 3s linear alternate-reverse;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
