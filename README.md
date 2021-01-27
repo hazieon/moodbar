@@ -1,19 +1,16 @@
 # Hackathon Week 7
+Find a drink recipe to fit your mood!
+A challenge as part of the School of Code bootcamp to use an API, practice group idea ideation and agile workflow to build an MVP of a web application.
+As a 4, we ideated and decided to build an app to generate a drink recipe based on your mood. For ideating, we used the disney ideation flow of 'dreamer, critic, realist' stages.
+We used a cocktail drinks API and used React to build components. 
+After the project, I touched up the functionality to bring in non-alcoholic mocktail options. I also updated the CSS to resemble a neon bar.
 
-For todays hackathon we will be creating a web experience using data from an api - in groups of 4! This will be hard, in 4s, so use all the tools you’ve learned, and you will understand better how to overcome some problems before the project next week.
+Lockdown drinks, anyone?
 
-## Task 1 - Api Research (20 - 30 mins)
+## Get a drink recipe:
+https://moodbar.netlify.app/
 
-Research what apis are available. You can use [this](https://apilist.fun) to help, but also go and explore. You can always fall back on pokemon/starwars/quiz/dad-jokes if needs be.
-
-## Task 2 - Ideate and Plan (30 - 60 mins)
-
-Use disney ideation to come up with an idea of what you want to build in the day. Then decide what your MVP is, and make it so that you can achieve your MVP before lunch. Break down your idea into its component parts. And prioritise your tasks.
-
-## Task 3 - Build your MVP (60 - 180 mins)
-
-Build your MVP. Use branching and work on different components concurrently. Have the most simple essence of your app working before lunch.
-
-## Task 4 - Stretch Goals (rest of the day)
-
-Have a quick chat about what you are going to build next. Break it down into tasks that you can work on and build it!
+# run the app locally:
+1. clone down the repository.
+2. 'npm i' in the project folder.
+3. 'npm start' to start up the application in your browser.
